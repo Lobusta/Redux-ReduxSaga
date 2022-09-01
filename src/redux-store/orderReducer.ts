@@ -14,7 +14,6 @@ const initialState = {
 
 
 export const orderReducer = (state:stateType = initialState, action:AnyAction):stateType=>{
-
     switch(action.type){
         case ActionTypes.ADDORDER:
             return { 
